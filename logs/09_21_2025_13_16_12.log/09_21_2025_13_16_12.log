@@ -1,0 +1,9 @@
+[ 2025-09-21 13:16:16,636 ] 42 root - INFO - Read the dataset as dataframe
+[ 2025-09-21 13:16:16,645 ] 21 root - INFO - Binary encoding done to create traget variable
+[ 2025-09-21 13:16:16,656 ] 25 root - INFO - Date feature extraction done
+[ 2025-09-21 13:16:16,656 ] 51 root - INFO - Preprocessing done
+[ 2025-09-21 13:16:16,670 ] 62 root - INFO - Ingestion of the data is completed
+[ 2025-09-21 13:16:16,677 ] 79 root - INFO - Read train and test data completed
+[ 2025-09-21 13:16:16,677 ] 81 root - INFO - Obtaining preprocessing object
+[ 2025-09-21 13:16:16,677 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/components/data_transformation.py] line number [37] error message[unhashable type: 'list']
+[ 2025-09-21 13:16:16,678 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/components/data_transformation.py] line number [83] error message[Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/components/data_transformation.py] line number [37] error message[unhashable type: 'list']]

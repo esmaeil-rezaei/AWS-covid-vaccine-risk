@@ -1,0 +1,10 @@
+[ 2025-09-21 13:29:38,581 ] 42 root - INFO - Read the dataset as dataframe
+[ 2025-09-21 13:29:38,590 ] 21 root - INFO - Binary encoding done to create traget variable
+[ 2025-09-21 13:29:38,598 ] 25 root - INFO - Date feature extraction done
+[ 2025-09-21 13:29:38,598 ] 51 root - INFO - Preprocessing done
+[ 2025-09-21 13:29:38,607 ] 62 root - INFO - Ingestion of the data is completed
+[ 2025-09-21 13:29:38,609 ] 79 root - INFO - Read train and test data completed
+[ 2025-09-21 13:29:38,609 ] 81 root - INFO - Obtaining preprocessing object
+[ 2025-09-21 13:29:38,609 ] 59 root - INFO - Categorical columns: ['Blood Pressure', 'Diabetes Status', 'Gender', 'Heart Attack Related to Vaccine', 'Location', 'Pre-existing Conditions', 'Smoking History', 'Vaccine Dose']
+[ 2025-09-21 13:29:38,609 ] 60 root - INFO - Numerical columns: ['Age', 'BMI', 'Cholesterol Level', 'Has Heart Attack', 'Heart Attack Date_day', 'Heart Attack Date_day_of_week', 'Heart Attack Date_is_weekend', 'Heart Attack Date_month', 'Heart Attack Date_quarter', 'Heart Attack Date_year', 'Outcome', 'Patient ID', 'Severity', 'Vaccination Date_day', 'Vaccination Date_day_of_week', 'Vaccination Date_is_weekend', 'Vaccination Date_month', 'Vaccination Date_quarter', 'Vaccination Date_year']
+[ 2025-09-21 13:29:38,609 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/components/data_transformation.py] line number [86] error message["['Heart Attack Date'] not found in axis"]

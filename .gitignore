@@ -80,29 +80,4 @@ env/
 env.bak/
 venv.bak/
 
-# Local SQLite database
-*.sqlite3
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
-*~
-
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Ignore data files
-*.csv
-*.tsv
-*.xls
-*.xlsx
-
-# Ignore secrets
-secrets.json
+#

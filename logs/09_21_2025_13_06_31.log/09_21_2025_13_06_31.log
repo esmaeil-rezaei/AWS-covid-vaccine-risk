@@ -1,0 +1,11 @@
+[ 2025-09-21 13:06:35,198 ] 42 root - INFO - Read the dataset as dataframe
+[ 2025-09-21 13:06:35,222 ] 20 root - INFO - Dropped 'Patient ID' column
+[ 2025-09-21 13:06:35,223 ] 24 root - INFO - Binary encoding done to create traget variable
+[ 2025-09-21 13:06:35,236 ] 28 root - INFO - Date feature extraction done
+[ 2025-09-21 13:06:35,236 ] 51 root - INFO - Preprocessing done
+[ 2025-09-21 13:06:35,248 ] 62 root - INFO - Ingestion of the data is completed
+[ 2025-09-21 13:06:35,252 ] 77 root - INFO - Read train and test data completed
+[ 2025-09-21 13:06:35,252 ] 79 root - INFO - Obtaining preprocessing object
+[ 2025-09-21 13:06:35,254 ] 57 root - INFO - Categorical columns: ['Blood Pressure', 'Diabetes Status', 'Gender', 'Heart Attack Related to Vaccine', 'Location', 'Pre-existing Conditions', 'Smoking History', 'Vaccine Dose']
+[ 2025-09-21 13:06:35,254 ] 58 root - INFO - Numerical columns: ['Age', 'BMI', 'Cholesterol Level', 'Heart Attack Date_day', 'Heart Attack Date_day_of_week', 'Heart Attack Date_is_weekend', 'Heart Attack Date_month', 'Heart Attack Date_quarter', 'Heart Attack Date_year', 'Outcome', 'Severity', 'Vaccination Date_day', 'Vaccination Date_day_of_week', 'Vaccination Date_is_weekend', 'Vaccination Date_month', 'Vaccination Date_quarter', 'Vaccination Date_year']
+[ 2025-09-21 13:06:35,254 ] 8 root - ERROR - Error occured in python script name [/Users/ishmael/Documents/covid_vaccine_risk/src/components/data_transformation.py] line number [85] error message["['Cognitive_Score'] not found in axis"]

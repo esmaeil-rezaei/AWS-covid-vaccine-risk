@@ -1,19 +1,8 @@
-FROM python:3.11-slim
-
-# Set working directory
+FROM python:3.11-slim-buster
 WORKDIR /app
+COPY . /app
 
-# Copy requirements first to leverage Docker cache
-COPY requirements.txt .
+RUN apt update -y && apt install awscli -y
 
-# Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copy the rest of the application
-COPY . .
-
-# Expose port
-EXPOSE 5000
-
-# Run the application
-CMD ["python", "app.py"]
+RUN apt-get update && apt-get install ffmpeg libsm6 libxext6 unzip -y && pip install -r requirements.txt
+CMD ["python3", "app.py"]

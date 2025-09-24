@@ -160,7 +160,6 @@ The test uses sample patient data to verify:
 - **Not for Medical Use**: Predictions should not be used for actual medical diagnosis
 - **Educational Purpose**: Designed to showcase ML application development
 - **Consult Professionals**: Always seek qualified medical advice for health concerns
-
 ---
 
 **Disclaimer**: This application is a demonstration project using dummy data. It is not intended for actual medical diagnosis or treatment decisions. Always consult with qualified healthcare professionals for medical advice.

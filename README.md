@@ -19,6 +19,11 @@ A machine learning-powered web application that predicts heart attack risk based
 - **Modern UI**: Professional medical-themed interface with smooth animations
 
 ## 🖥️ User Interface
+<p align="center">
+  <a href="http://54.196.245.19:8080/" target="_blank">
+    🚀 <b>View Live Application</b> 🌐
+  </a>
+</p>
 ![Application Screenshot](templates/imgs/ui-screenshot.png)
 
 *The application features a modern, responsive design with an intuitive form interface for data input and real-time prediction results.*

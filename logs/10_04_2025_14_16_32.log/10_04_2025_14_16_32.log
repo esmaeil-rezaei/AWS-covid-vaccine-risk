@@ -1,0 +1,17 @@
+[ 2025-10-04 14:16:57,409 ] 42 root - INFO - Read the dataset as dataframe
+[ 2025-10-04 14:16:57,442 ] 22 root - INFO - Dropped all NaN columns: []
+[ 2025-10-04 14:16:57,443 ] 25 root - INFO - Binary encoding done to create traget variable
+[ 2025-10-04 14:16:57,453 ] 29 root - INFO - Date feature extraction done
+[ 2025-10-04 14:16:57,453 ] 49 root - INFO - Preprocessing done
+[ 2025-10-04 14:16:57,492 ] 56 root - INFO - Ingestion of the data is completed
+[ 2025-10-04 14:16:57,500 ] 79 root - INFO - Read train and test data completed
+[ 2025-10-04 14:16:57,500 ] 81 root - INFO - Obtaining preprocessing object
+[ 2025-10-04 14:16:57,501 ] 59 root - INFO - Categorical columns: ['Blood Pressure', 'Diabetes Status', 'Gender', 'Location', 'Pre-existing Conditions', 'Smoking History', 'Vaccine Dose']
+[ 2025-10-04 14:16:57,501 ] 60 root - INFO - Numerical columns: ['Age', 'BMI', 'Cholesterol Level', 'Heart Attack Date_day', 'Heart Attack Date_day_of_week', 'Heart Attack Date_is_weekend', 'Heart Attack Date_month', 'Heart Attack Date_quarter', 'Heart Attack Date_year', 'Patient ID', 'Vaccination Date_day', 'Vaccination Date_day_of_week', 'Vaccination Date_is_weekend', 'Vaccination Date_month', 'Vaccination Date_quarter', 'Vaccination Date_year']
+[ 2025-10-04 14:16:57,502 ] 92 root - INFO - Applying preprocessing object on training and testing datasets.
+[ 2025-10-04 14:16:57,523 ] 104 root - INFO - Saved preprocessing object.
+[ 2025-10-04 14:16:57,524 ] 158 root - INFO - Split training and test input data
+[ 2025-10-04 14:21:36,440 ] 224 root - INFO - Best model found , Model name: CatBoosting Classifier , Accuracy: 0.989
+[ 2025-10-04 14:21:36,442 ] 230 root - INFO - Model pickle file saved
+[ 2025-10-04 14:21:36,460 ] 234 root - INFO - Accuracy score: 0.989
+[ 2025-10-04 14:21:36,462 ] 24 root - INFO - Training pipeline completed

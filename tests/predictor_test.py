@@ -1,8 +1,6 @@
-# import pytest
 import numpy as np
 from dataclasses import dataclass
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
-
 
 @dataclass
 class SamplePatient:
@@ -22,8 +20,7 @@ class SamplePatient:
         "Vaccination Date": "2022-01-16",
     }
 
-
-if __name__ == "__main__":
+def test_pipeline_runs():
     """Test PredictPipeline with sample data"""
     sample_patient_dict = SamplePatient().sample_patient_dict
     custom_data_obj = CustomData(
@@ -46,9 +43,6 @@ if __name__ == "__main__":
     pipeline = PredictPipeline()
     predictions = pipeline.predict(test_df)
 
-    # Debug output in pytest (visible only if the test fails, or run with -s)
-    print(predictions)
 
-    # Assertions
     assert isinstance(predictions, (np.ndarray, list))
     assert len(predictions) > 0
